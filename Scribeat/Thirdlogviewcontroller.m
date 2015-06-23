@@ -31,20 +31,14 @@
 - (IBAction)grain:(id)sender {
     UIButton *btn=(UIButton *)sender;
      [btn setBackgroundColor:selectedColor];
-    fruit.backgroundColor=notselectedColor;
-    veggie.backgroundColor=notselectedColor;
-    protein.backgroundColor=notselectedColor;
-    diary.backgroundColor=notselectedColor;
+   
         showpic.image=[UIImage imageNamed: @"Grain.png"];
 }
 
 - (IBAction)fruit:(id)sender {
     UIButton *btn=(UIButton *)sender;
      [btn setBackgroundColor:selectedColor];
-    grain.backgroundColor=notselectedColor;
-    veggie.backgroundColor=notselectedColor;
-    protein.backgroundColor=notselectedColor;
-    diary.backgroundColor=notselectedColor;
+   
     showpic.image=[UIImage imageNamed: @"Veggie.png"];
 }
 
@@ -52,29 +46,19 @@
     UIButton *btn=(UIButton *)sender;
     [btn setBackgroundColor:selectedColor];
     showpic.image=[UIImage imageNamed: @"Veggie.png"];
-    fruit.backgroundColor=notselectedColor;
-    grain.backgroundColor=notselectedColor;
-    protein.backgroundColor=notselectedColor;
-    diary.backgroundColor=notselectedColor;
+   
 }
 
 - (IBAction)protein:(id)sender {
     UIButton *btn=(UIButton *)sender;
     [btn setBackgroundColor:selectedColor];
     showpic.image=[UIImage imageNamed: @"Protein.png"];
-    fruit.backgroundColor=notselectedColor;
-    veggie.backgroundColor=notselectedColor;
-    grain.backgroundColor=notselectedColor;
-    diary.backgroundColor=notselectedColor;
+   
 }
 
 - (IBAction)dairy:(id)sender {
     UIButton *btn=(UIButton *)sender;
     [btn setBackgroundColor:selectedColor];
     showpic.image=[UIImage imageNamed: @"milk.png"];
-    fruit.backgroundColor=notselectedColor;
-    veggie.backgroundColor=notselectedColor;
-    protein.backgroundColor=notselectedColor;
-    grain.backgroundColor=notselectedColor;
-}
+  }
 @end
