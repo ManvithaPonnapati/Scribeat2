@@ -542,9 +542,12 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23K-V1-hyo">
                                 <rect key="frame" x="200" y="396" width="46" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="thumb.png">
+                                <state key="normal" backgroundImage="thumbdown.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="thumbdown:" destination="JPk-DA-oN3" eventType="touchUpInside" id="0rr-em-pe4"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scribeat Logo Final.png" id="nbW-pn-Geg">
                                 <rect key="frame" x="133" y="63" width="73" height="65"/>
@@ -556,6 +559,9 @@
                                 <state key="normal" backgroundImage="thumb.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="thumbup:" destination="JPk-DA-oN3" eventType="touchUpInside" id="S9q-hG-SYE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eW9-P1-fbF">
                                 <rect key="frame" x="0.0" y="459" width="320" height="45"/>
@@ -673,9 +679,12 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a4u-XF-qHd">
                                 <rect key="frame" x="202" y="382" width="56" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="thumb.png">
+                                <state key="normal" backgroundImage="thumbdown.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="thumbdown:" destination="mmH-KX-ABr" eventType="touchUpInside" id="srU-rc-cVe"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scribeat Logo Final.png" id="Je2-BJ-aW2">
                                 <rect key="frame" x="128" y="53" width="67" height="68"/>
@@ -687,6 +696,9 @@
                                 <state key="normal" backgroundImage="thumb.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="thumbup:" destination="mmH-KX-ABr" eventType="touchUpInside" id="9EG-l7-qpN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No It was heaviest in" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5p8-53-D6n">
                                 <rect key="frame" x="14" y="121" width="375" height="21"/>
@@ -718,6 +730,8 @@
                         <outlet property="showpic1" destination="IkJ-S1-I6O" id="NdF-XZ-GLW"/>
                         <outlet property="soda" destination="NEt-5f-Yq0" id="bUM-ZN-AXS"/>
                         <outlet property="tea" destination="ayU-jj-2fT" id="yOE-Fj-FWM"/>
+                        <outlet property="thumbdown" destination="a4u-XF-qHd" id="V8f-Yh-2fH"/>
+                        <outlet property="thumbuo" destination="Wgd-xo-pkE" id="ZlF-OP-bK2"/>
                         <outlet property="water" destination="cK9-kN-SwQ" id="mnJ-Uz-EkN"/>
                     </connections>
                 </viewController>
@@ -854,9 +868,10 @@
         <image name="SettingsIcon.png" width="1049" height="1049"/>
         <image name="logScreen.png" width="3129" height="5563"/>
         <image name="thumb.png" width="589" height="717"/>
+        <image name="thumbdown.png" width="589" height="717"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aDv-go-wFo"/>
+        <segue reference="cpN-kn-xOo"/>
         <segue reference="zwd-Uo-9Bi"/>
     </inferredMetricsTieBreakers>
 </document>

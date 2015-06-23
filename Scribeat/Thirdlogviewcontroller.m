@@ -61,4 +61,12 @@
     [btn setBackgroundColor:selectedColor];
     showpic.image=[UIImage imageNamed: @"milk.png"];
   }
+- (IBAction)thumbdown:(id)sender {
+    UIButton *btn=(UIButton *)sender;
+    [btn setBackgroundColor:selectedColor];
+}
+- (IBAction)thumbup:(id)sender {
+    UIButton *btn=(UIButton *)sender;
+    [btn setBackgroundColor:selectedColor];
+}
 @end

@@ -23,5 +23,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *alcohol;
 @property (weak, nonatomic) IBOutlet UIButton *tea;
 @property (weak, nonatomic) IBOutlet UIButton *protein;
+@property (weak, nonatomic) IBOutlet UIButton *thumbuo;
+@property (weak, nonatomic) IBOutlet UIButton *thumbdown;
+- (IBAction)thumbup:(id)sender;
+- (IBAction)thumbdown:(id)sender;
 
 @end

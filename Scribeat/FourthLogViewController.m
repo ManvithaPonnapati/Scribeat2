@@ -17,6 +17,8 @@
 @synthesize alcohol;
 @synthesize tea;
 @synthesize protein;
+@synthesize thumbdown;
+@synthesize thumbuo;
 -(void)viewDidLoad {
     selectedColor=[UIColor colorWithRed:191.0f/255.0f
                                   green:215.0f/255.0f
@@ -76,5 +78,12 @@
     tea.backgroundColor=notselectedColor;
     water.backgroundColor=notselectedColor;
     showpic1.image=[UIImage imageNamed: @"milk.png"];
+}
+- (IBAction)thumbup:(id)sender {
+    thumbuo.backgroundColor=selectedColor;
+}
+
+- (IBAction)thumbdown:(id)sender {
+    thumbdown.backgroundColor=selectedColor;
 }
 @end

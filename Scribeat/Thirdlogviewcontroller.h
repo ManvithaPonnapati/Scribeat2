@@ -16,7 +16,9 @@
 - (IBAction)dairy:(id)sender;
 @property (nonatomic,retain) UIColor *notselectedColor;
 @property (weak, nonatomic) IBOutlet UIButton *grain;
+- (IBAction)thumbup:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *showpic;
+- (IBAction)thumbdown:(id)sender;
 @property (nonatomic,retain) UIColor *selectedColor;
 @property (weak, nonatomic) IBOutlet UIButton *fruit;
 @property (weak, nonatomic) IBOutlet UIButton *veggie;
