@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3211439B1B37B86B005AEA86 /* Camera icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211439A1B37B86A005AEA86 /* Camera icon.png */; };
+		3211439F1B37B9B3005AEA86 /* Diary.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211439C1B37B9B3005AEA86 /* Diary.png */; };
+		321143A01B37B9B3005AEA86 /* Protein.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211439D1B37B9B3005AEA86 /* Protein.png */; };
+		321143A11B37B9B3005AEA86 /* Veggie.png in Resources */ = {isa = PBXBuildFile; fileRef = 3211439E1B37B9B3005AEA86 /* Veggie.png */; };
+		321143A31B37C97E005AEA86 /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 321143A21B37C97E005AEA86 /* Clock.png */; };
+		321143A61B37CB61005AEA86 /* Clock dial.png in Resources */ = {isa = PBXBuildFile; fileRef = 321143A41B37CB61005AEA86 /* Clock dial.png */; };
+		321143A71B37CB61005AEA86 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 321143A51B37CB61005AEA86 /* thumb.png */; };
+		321143AA1B37CD1A005AEA86 /* FourthLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321143A91B37CD1A005AEA86 /* FourthLogViewController.m */; };
+		321143AC1B37D1DD005AEA86 /* Grain.png in Resources */ = {isa = PBXBuildFile; fileRef = 321143AB1B37D1DD005AEA86 /* Grain.png */; };
+		321143AE1B37D451005AEA86 /* logScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 321143AD1B37D451005AEA86 /* logScreen.png */; };
+		323807E21B2E287C00D68FCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323807E11B2E287C00D68FCC /* main.m */; };
+		323807E51B2E287C00D68FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323807E41B2E287C00D68FCC /* AppDelegate.m */; };
+		323807E81B2E287C00D68FCC /* Scribeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 323807E61B2E287C00D68FCC /* Scribeat.xcdatamodeld */; };
+		323807EB1B2E287C00D68FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323807EA1B2E287C00D68FCC /* ViewController.m */; };
+		323807EE1B2E287C00D68FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323807EC1B2E287C00D68FCC /* Main.storyboard */; };
+		323807F01B2E287C00D68FCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323807EF1B2E287C00D68FCC /* Images.xcassets */; };
+		323807F31B2E287C00D68FCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323807F11B2E287C00D68FCC /* LaunchScreen.xib */; };
+		323807FF1B2E287C00D68FCC /* ScribeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323807FE1B2E287C00D68FCC /* ScribeatTests.m */; };
+		3238080F1B2E290300D68FCC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808091B2E290300D68FCC /* Bolts.framework */; };
+		323808101B2E290300D68FCC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238080A1B2E290300D68FCC /* Parse.framework */; };
+		323808111B2E290300D68FCC /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238080B1B2E290300D68FCC /* ParseCrashReporting.framework */; };
+		323808121B2E290300D68FCC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238080C1B2E290300D68FCC /* ParseFacebookUtils.framework */; };
+		323808131B2E290300D68FCC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238080D1B2E290300D68FCC /* ParseFacebookUtilsV4.framework */; };
+		323808141B2E290300D68FCC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238080E1B2E290300D68FCC /* ParseUI.framework */; };
+		323808161B2E293300D68FCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808151B2E293300D68FCC /* AudioToolbox.framework */; };
+		323808181B2E293C00D68FCC /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808171B2E293C00D68FCC /* Accounts.framework */; };
+		3238081A1B2E294100D68FCC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808191B2E294100D68FCC /* AdSupport.framework */; };
+		3238081C1B2E294A00D68FCC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238081B1B2E294A00D68FCC /* CFNetwork.framework */; };
+		3238081E1B2E294E00D68FCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238081D1B2E294E00D68FCC /* CoreGraphics.framework */; };
+		323808201B2E295700D68FCC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238081F1B2E295700D68FCC /* CoreLocation.framework */; };
+		323808221B2E296200D68FCC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808211B2E296100D68FCC /* libsqlite3.dylib */; };
+		323808241B2E296C00D68FCC /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808231B2E296C00D68FCC /* libz.1.1.3.dylib */; };
+		323808261B2E297A00D68FCC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808251B2E297A00D68FCC /* MobileCoreServices.framework */; };
+		323808281B2E298400D68FCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808271B2E298400D68FCC /* QuartzCore.framework */; };
+		3238082A1B2E298C00D68FCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808291B2E298C00D68FCC /* Security.framework */; };
+		3238082C1B2E299300D68FCC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238082B1B2E299300D68FCC /* Social.framework */; };
+		3238082E1B2E299C00D68FCC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238082D1B2E299C00D68FCC /* StoreKit.framework */; };
+		323808301B2E29AB00D68FCC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3238082F1B2E29AB00D68FCC /* SystemConfiguration.framework */; };
+		323808321B2E29B400D68FCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808311B2E29B400D68FCC /* UIKit.framework */; };
+		323808341B2E29BD00D68FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323808331B2E29BD00D68FCC /* Foundation.framework */; };
+		323808391B2E2EB500D68FCC /* Scribeat Logo Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 323808381B2E2EB500D68FCC /* Scribeat Logo Final.png */; };
+		3238083B1B2E2FE400D68FCC /* SignIn1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3238083A1B2E2FE400D68FCC /* SignIn1.jpg */; };
+		3238083E1B2E304E00D68FCC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238083D1B2E304E00D68FCC /* SignUpViewController.m */; };
+		3238086D1B2E4DDB00D68FCC /* GraphIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238086B1B2E4DDB00D68FCC /* GraphIcon.png */; };
+		3238086E1B2E4DDB00D68FCC /* SettingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3238086C1B2E4DDB00D68FCC /* SettingsIcon.png */; };
+		323808931B2E4EF300D68FCC /* FirstLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323808921B2E4EF300D68FCC /* FirstLogViewController.m */; };
+		323808961B2E4F0600D68FCC /* SecondLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323808951B2E4F0600D68FCC /* SecondLogViewController.m */; };
+		3238090D1B32634A00D68FCC /* thumbs-down-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3238090B1B32634A00D68FCC /* thumbs-down-button.jpg */; };
+		3238090E1B32634A00D68FCC /* thumbs-up-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3238090C1B32634A00D68FCC /* thumbs-up-button.jpg */; };
+		323809111B3263E700D68FCC /* Thirdlogviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 323809101B3263E700D68FCC /* Thirdlogviewcontroller.m */; };
+		323809181B32663200D68FCC /* Dairy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323809141B32663200D68FCC /* Dairy.jpg */; };
+		323809191B32663200D68FCC /* Fruit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 323809151B32663200D68FCC /* Fruit.jpg */; };
+		325930F91B38F9DB00B06DC1 /* alcohol.png in Resources */ = {isa = PBXBuildFile; fileRef = 325930F51B38F9DB00B06DC1 /* alcohol.png */; };
+		325930FA1B38F9DB00B06DC1 /* soda.png in Resources */ = {isa = PBXBuildFile; fileRef = 325930F61B38F9DB00B06DC1 /* soda.png */; };
+		325930FB1B38F9DB00B06DC1 /* tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 325930F71B38F9DB00B06DC1 /* tea.png */; };
+		325930FC1B38F9DB00B06DC1 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 325930F81B38F9DB00B06DC1 /* water.png */; };
+		325943D21B38FC4C00B06DC1 /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 325943D11B38FC4C00B06DC1 /* milk.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323807F91B2E287C00D68FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323807D41B2E287C00D68FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323807DB1B2E287C00D68FCC;
+			remoteInfo = Scribeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3211439A1B37B86A005AEA86 /* Camera icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera icon.png"; sourceTree = "<group>"; };
+		3211439C1B37B9B3005AEA86 /* Diary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diary.png; sourceTree = "<group>"; };
+		3211439D1B37B9B3005AEA86 /* Protein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Protein.png; sourceTree = "<group>"; };
+		3211439E1B37B9B3005AEA86 /* Veggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Veggie.png; sourceTree = "<group>"; };
+		321143A21B37C97E005AEA86 /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
+		321143A41B37CB61005AEA86 /* Clock dial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clock dial.png"; sourceTree = "<group>"; };
+		321143A51B37CB61005AEA86 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		321143A81B37CD19005AEA86 /* FourthLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthLogViewController.h; sourceTree = "<group>"; };
+		321143A91B37CD1A005AEA86 /* FourthLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthLogViewController.m; sourceTree = "<group>"; };
+		321143AB1B37D1DD005AEA86 /* Grain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grain.png; sourceTree = "<group>"; };
+		321143AD1B37D451005AEA86 /* logScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logScreen.png; sourceTree = "<group>"; };
+		323807DC1B2E287C00D68FCC /* Scribeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scribeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323807E01B2E287C00D68FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323807E11B2E287C00D68FCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		323807E31B2E287C00D68FCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		323807E41B2E287C00D68FCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		323807E71B2E287C00D68FCC /* Scribeat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scribeat.xcdatamodel; sourceTree = "<group>"; };
+		323807E91B2E287C00D68FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		323807EA1B2E287C00D68FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		323807ED1B2E287C00D68FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323807EF1B2E287C00D68FCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		323807F21B2E287C00D68FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		323807F81B2E287C00D68FCC /* ScribeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323807FD1B2E287C00D68FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323807FE1B2E287C00D68FCC /* ScribeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribeatTests.m; sourceTree = "<group>"; };
+		323808091B2E290300D68FCC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3238080A1B2E290300D68FCC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3238080B1B2E290300D68FCC /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		3238080C1B2E290300D68FCC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		3238080D1B2E290300D68FCC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		3238080E1B2E290300D68FCC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		323808151B2E293300D68FCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		323808171B2E293C00D68FCC /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		323808191B2E294100D68FCC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3238081B1B2E294A00D68FCC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3238081D1B2E294E00D68FCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3238081F1B2E295700D68FCC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		323808211B2E296100D68FCC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		323808231B2E296C00D68FCC /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		323808251B2E297A00D68FCC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		323808271B2E298400D68FCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		323808291B2E298C00D68FCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3238082B1B2E299300D68FCC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		3238082D1B2E299C00D68FCC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3238082F1B2E29AB00D68FCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		323808311B2E29B400D68FCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		323808331B2E29BD00D68FCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		323808381B2E2EB500D68FCC /* Scribeat Logo Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Scribeat Logo Final.png"; sourceTree = SOURCE_ROOT; };
+		3238083A1B2E2FE400D68FCC /* SignIn1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SignIn1.jpg; sourceTree = SOURCE_ROOT; };
+		3238083C1B2E304E00D68FCC /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		3238083D1B2E304E00D68FCC /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		3238086B1B2E4DDB00D68FCC /* GraphIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GraphIcon.png; sourceTree = SOURCE_ROOT; };
+		3238086C1B2E4DDB00D68FCC /* SettingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsIcon.png; sourceTree = SOURCE_ROOT; };
+		323808911B2E4EF300D68FCC /* FirstLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLogViewController.h; sourceTree = "<group>"; };
+		323808921B2E4EF300D68FCC /* FirstLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLogViewController.m; sourceTree = "<group>"; };
+		323808941B2E4F0600D68FCC /* SecondLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLogViewController.h; sourceTree = "<group>"; };
+		323808951B2E4F0600D68FCC /* SecondLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLogViewController.m; sourceTree = "<group>"; };
+		3238090B1B32634A00D68FCC /* thumbs-down-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumbs-down-button.jpg"; sourceTree = "<group>"; };
+		3238090C1B32634A00D68FCC /* thumbs-up-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "thumbs-up-button.jpg"; sourceTree = "<group>"; };
+		3238090F1B3263E700D68FCC /* Thirdlogviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thirdlogviewcontroller.h; sourceTree = "<group>"; };
+		323809101B3263E700D68FCC /* Thirdlogviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thirdlogviewcontroller.m; sourceTree = "<group>"; };
+		323809141B32663200D68FCC /* Dairy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dairy.jpg; sourceTree = "<group>"; };
+		323809151B32663200D68FCC /* Fruit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fruit.jpg; sourceTree = "<group>"; };
+		325930F51B38F9DB00B06DC1 /* alcohol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alcohol.png; sourceTree = "<group>"; };
+		325930F61B38F9DB00B06DC1 /* soda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soda.png; sourceTree = "<group>"; };
+		325930F71B38F9DB00B06DC1 /* tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tea.png; sourceTree = "<group>"; };
+		325930F81B38F9DB00B06DC1 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		325943D11B38FC4C00B06DC1 /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milk.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323807D91B2E287C00D68FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323808341B2E29BD00D68FCC /* Foundation.framework in Frameworks */,
+				323808321B2E29B400D68FCC /* UIKit.framework in Frameworks */,
+				323808301B2E29AB00D68FCC /* SystemConfiguration.framework in Frameworks */,
+				3238082E1B2E299C00D68FCC /* StoreKit.framework in Frameworks */,
+				3238082C1B2E299300D68FCC /* Social.framework in Frameworks */,
+				3238082A1B2E298C00D68FCC /* Security.framework in Frameworks */,
+				323808281B2E298400D68FCC /* QuartzCore.framework in Frameworks */,
+				323808261B2E297A00D68FCC /* MobileCoreServices.framework in Frameworks */,
+				323808241B2E296C00D68FCC /* libz.1.1.3.dylib in Frameworks */,
+				323808221B2E296200D68FCC /* libsqlite3.dylib in Frameworks */,
+				323808201B2E295700D68FCC /* CoreLocation.framework in Frameworks */,
+				3238081E1B2E294E00D68FCC /* CoreGraphics.framework in Frameworks */,
+				3238081C1B2E294A00D68FCC /* CFNetwork.framework in Frameworks */,
+				3238081A1B2E294100D68FCC /* AdSupport.framework in Frameworks */,
+				323808181B2E293C00D68FCC /* Accounts.framework in Frameworks */,
+				323808161B2E293300D68FCC /* AudioToolbox.framework in Frameworks */,
+				323808141B2E290300D68FCC /* ParseUI.framework in Frameworks */,
+				323808101B2E290300D68FCC /* Parse.framework in Frameworks */,
+				323808111B2E290300D68FCC /* ParseCrashReporting.framework in Frameworks */,
+				323808121B2E290300D68FCC /* ParseFacebookUtils.framework in Frameworks */,
+				3238080F1B2E290300D68FCC /* Bolts.framework in Frameworks */,
+				323808131B2E290300D68FCC /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323807F51B2E287C00D68FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323807D31B2E287C00D68FCC = {
+			isa = PBXGroup;
+			children = (
+				323807DE1B2E287C00D68FCC /* Scribeat */,
+				323807FB1B2E287C00D68FCC /* ScribeatTests */,
+				323807DD1B2E287C00D68FCC /* Products */,
+				323808081B2E288200D68FCC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		323807DD1B2E287C00D68FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323807DC1B2E287C00D68FCC /* Scribeat.app */,
+				323807F81B2E287C00D68FCC /* ScribeatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323807DE1B2E287C00D68FCC /* Scribeat */ = {
+			isa = PBXGroup;
+			children = (
+				321143A81B37CD19005AEA86 /* FourthLogViewController.h */,
+				321143A91B37CD1A005AEA86 /* FourthLogViewController.m */,
+				3238083C1B2E304E00D68FCC /* SignUpViewController.h */,
+				3238083D1B2E304E00D68FCC /* SignUpViewController.m */,
+				323808371B2E2E9B00D68FCC /* Images */,
+				323807E31B2E287C00D68FCC /* AppDelegate.h */,
+				323807E41B2E287C00D68FCC /* AppDelegate.m */,
+				323807E91B2E287C00D68FCC /* ViewController.h */,
+				323807EA1B2E287C00D68FCC /* ViewController.m */,
+				323807EC1B2E287C00D68FCC /* Main.storyboard */,
+				3238090F1B3263E700D68FCC /* Thirdlogviewcontroller.h */,
+				323809101B3263E700D68FCC /* Thirdlogviewcontroller.m */,
+				323807EF1B2E287C00D68FCC /* Images.xcassets */,
+				323807F11B2E287C00D68FCC /* LaunchScreen.xib */,
+				323807E61B2E287C00D68FCC /* Scribeat.xcdatamodeld */,
+				323807DF1B2E287C00D68FCC /* Supporting Files */,
+				323808911B2E4EF300D68FCC /* FirstLogViewController.h */,
+				323808921B2E4EF300D68FCC /* FirstLogViewController.m */,
+				323808941B2E4F0600D68FCC /* SecondLogViewController.h */,
+				323808951B2E4F0600D68FCC /* SecondLogViewController.m */,
+			);
+			path = Scribeat;
+			sourceTree = "<group>";
+		};
+		323807DF1B2E287C00D68FCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323807E01B2E287C00D68FCC /* Info.plist */,
+				323807E11B2E287C00D68FCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323807FB1B2E287C00D68FCC /* ScribeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				323807FE1B2E287C00D68FCC /* ScribeatTests.m */,
+				323807FC1B2E287C00D68FCC /* Supporting Files */,
+			);
+			path = ScribeatTests;
+			sourceTree = "<group>";
+		};
+		323807FC1B2E287C00D68FCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				323807FD1B2E287C00D68FCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		323808081B2E288200D68FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				323808331B2E29BD00D68FCC /* Foundation.framework */,
+				323808311B2E29B400D68FCC /* UIKit.framework */,
+				3238082F1B2E29AB00D68FCC /* SystemConfiguration.framework */,
+				3238082D1B2E299C00D68FCC /* StoreKit.framework */,
+				3238082B1B2E299300D68FCC /* Social.framework */,
+				323808291B2E298C00D68FCC /* Security.framework */,
+				323808271B2E298400D68FCC /* QuartzCore.framework */,
+				323808251B2E297A00D68FCC /* MobileCoreServices.framework */,
+				323808231B2E296C00D68FCC /* libz.1.1.3.dylib */,
+				323808211B2E296100D68FCC /* libsqlite3.dylib */,
+				3238081F1B2E295700D68FCC /* CoreLocation.framework */,
+				3238081D1B2E294E00D68FCC /* CoreGraphics.framework */,
+				3238081B1B2E294A00D68FCC /* CFNetwork.framework */,
+				323808191B2E294100D68FCC /* AdSupport.framework */,
+				323808171B2E293C00D68FCC /* Accounts.framework */,
+				323808151B2E293300D68FCC /* AudioToolbox.framework */,
+				323808091B2E290300D68FCC /* Bolts.framework */,
+				3238080A1B2E290300D68FCC /* Parse.framework */,
+				3238080B1B2E290300D68FCC /* ParseCrashReporting.framework */,
+				3238080C1B2E290300D68FCC /* ParseFacebookUtils.framework */,
+				3238080D1B2E290300D68FCC /* ParseFacebookUtilsV4.framework */,
+				3238080E1B2E290300D68FCC /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		323808371B2E2E9B00D68FCC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				325943D11B38FC4C00B06DC1 /* milk.png */,
+				325930F51B38F9DB00B06DC1 /* alcohol.png */,
+				325930F61B38F9DB00B06DC1 /* soda.png */,
+				325930F71B38F9DB00B06DC1 /* tea.png */,
+				325930F81B38F9DB00B06DC1 /* water.png */,
+				321143AD1B37D451005AEA86 /* logScreen.png */,
+				321143AB1B37D1DD005AEA86 /* Grain.png */,
+				321143A41B37CB61005AEA86 /* Clock dial.png */,
+				321143A51B37CB61005AEA86 /* thumb.png */,
+				321143A21B37C97E005AEA86 /* Clock.png */,
+				3211439C1B37B9B3005AEA86 /* Diary.png */,
+				3211439D1B37B9B3005AEA86 /* Protein.png */,
+				3211439E1B37B9B3005AEA86 /* Veggie.png */,
+				3211439A1B37B86A005AEA86 /* Camera icon.png */,
+				323809141B32663200D68FCC /* Dairy.jpg */,
+				323809151B32663200D68FCC /* Fruit.jpg */,
+				3238090B1B32634A00D68FCC /* thumbs-down-button.jpg */,
+				3238090C1B32634A00D68FCC /* thumbs-up-button.jpg */,
+				3238086B1B2E4DDB00D68FCC /* GraphIcon.png */,
+				3238086C1B2E4DDB00D68FCC /* SettingsIcon.png */,
+				3238083A1B2E2FE400D68FCC /* SignIn1.jpg */,
+				323808381B2E2EB500D68FCC /* Scribeat Logo Final.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323807DB1B2E287C00D68FCC /* Scribeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323808021B2E287C00D68FCC /* Build configuration list for PBXNativeTarget "Scribeat" */;
+			buildPhases = (
+				323807D81B2E287C00D68FCC /* Sources */,
+				323807D91B2E287C00D68FCC /* Frameworks */,
+				323807DA1B2E287C00D68FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scribeat;
+			productName = Scribeat;
+			productReference = 323807DC1B2E287C00D68FCC /* Scribeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323807F71B2E287C00D68FCC /* ScribeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323808051B2E287C00D68FCC /* Build configuration list for PBXNativeTarget "ScribeatTests" */;
+			buildPhases = (
+				323807F41B2E287C00D68FCC /* Sources */,
+				323807F51B2E287C00D68FCC /* Frameworks */,
+				323807F61B2E287C00D68FCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323807FA1B2E287C00D68FCC /* PBXTargetDependency */,
+			);
+			name = ScribeatTests;
+			productName = ScribeatTests;
+			productReference = 323807F81B2E287C00D68FCC /* ScribeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323807D41B2E287C00D68FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Manu;
+				TargetAttributes = {
+					323807DB1B2E287C00D68FCC = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = HF8E39XLC8;
+					};
+					323807F71B2E287C00D68FCC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 323807DB1B2E287C00D68FCC;
+					};
+				};
+			};
+			buildConfigurationList = 323807D71B2E287C00D68FCC /* Build configuration list for PBXProject "Scribeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323807D31B2E287C00D68FCC;
+			productRefGroup = 323807DD1B2E287C00D68FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323807DB1B2E287C00D68FCC /* Scribeat */,
+				323807F71B2E287C00D68FCC /* ScribeatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323807DA1B2E287C00D68FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323807EE1B2E287C00D68FCC /* Main.storyboard in Resources */,
+				323807F31B2E287C00D68FCC /* LaunchScreen.xib in Resources */,
+				3238083B1B2E2FE400D68FCC /* SignIn1.jpg in Resources */,
+				325930FB1B38F9DB00B06DC1 /* tea.png in Resources */,
+				321143A01B37B9B3005AEA86 /* Protein.png in Resources */,
+				3238086E1B2E4DDB00D68FCC /* SettingsIcon.png in Resources */,
+				323808391B2E2EB500D68FCC /* Scribeat Logo Final.png in Resources */,
+				323807F01B2E287C00D68FCC /* Images.xcassets in Resources */,
+				325930F91B38F9DB00B06DC1 /* alcohol.png in Resources */,
+				325930FA1B38F9DB00B06DC1 /* soda.png in Resources */,
+				321143A61B37CB61005AEA86 /* Clock dial.png in Resources */,
+				321143AC1B37D1DD005AEA86 /* Grain.png in Resources */,
+				321143A71B37CB61005AEA86 /* thumb.png in Resources */,
+				323809191B32663200D68FCC /* Fruit.jpg in Resources */,
+				321143A31B37C97E005AEA86 /* Clock.png in Resources */,
+				3238090D1B32634A00D68FCC /* thumbs-down-button.jpg in Resources */,
+				325943D21B38FC4C00B06DC1 /* milk.png in Resources */,
+				3238086D1B2E4DDB00D68FCC /* GraphIcon.png in Resources */,
+				321143AE1B37D451005AEA86 /* logScreen.png in Resources */,
+				3211439F1B37B9B3005AEA86 /* Diary.png in Resources */,
+				3238090E1B32634A00D68FCC /* thumbs-up-button.jpg in Resources */,
+				321143A11B37B9B3005AEA86 /* Veggie.png in Resources */,
+				323809181B32663200D68FCC /* Dairy.jpg in Resources */,
+				3211439B1B37B86B005AEA86 /* Camera icon.png in Resources */,
+				325930FC1B38F9DB00B06DC1 /* water.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323807F61B2E287C00D68FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323807D81B2E287C00D68FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323807E81B2E287C00D68FCC /* Scribeat.xcdatamodeld in Sources */,
+				3238083E1B2E304E00D68FCC /* SignUpViewController.m in Sources */,
+				323808931B2E4EF300D68FCC /* FirstLogViewController.m in Sources */,
+				323807E51B2E287C00D68FCC /* AppDelegate.m in Sources */,
+				323807EB1B2E287C00D68FCC /* ViewController.m in Sources */,
+				321143AA1B37CD1A005AEA86 /* FourthLogViewController.m in Sources */,
+				323807E21B2E287C00D68FCC /* main.m in Sources */,
+				323808961B2E4F0600D68FCC /* SecondLogViewController.m in Sources */,
+				323809111B3263E700D68FCC /* Thirdlogviewcontroller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323807F41B2E287C00D68FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323807FF1B2E287C00D68FCC /* ScribeatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323807FA1B2E287C00D68FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323807DB1B2E287C00D68FCC /* Scribeat */;
+			targetProxy = 323807F91B2E287C00D68FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323807EC1B2E287C00D68FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323807ED1B2E287C00D68FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323807F11B2E287C00D68FCC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323807F21B2E287C00D68FCC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323808001B2E287C00D68FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		323808011B2E287C00D68FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323808031B2E287C00D68FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Scribeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		323808041B2E287C00D68FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Scribeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		323808061B2E287C00D68FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScribeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scribeat.app/Scribeat";
+			};
+			name = Debug;
+		};
+		323808071B2E287C00D68FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScribeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scribeat.app/Scribeat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323807D71B2E287C00D68FCC /* Build configuration list for PBXProject "Scribeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323808001B2E287C00D68FCC /* Debug */,
+				323808011B2E287C00D68FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323808021B2E287C00D68FCC /* Build configuration list for PBXNativeTarget "Scribeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323808031B2E287C00D68FCC /* Debug */,
+				323808041B2E287C00D68FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323808051B2E287C00D68FCC /* Build configuration list for PBXNativeTarget "ScribeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323808061B2E287C00D68FCC /* Debug */,
+				323808071B2E287C00D68FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		323807E61B2E287C00D68FCC /* Scribeat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				323807E71B2E287C00D68FCC /* Scribeat.xcdatamodel */,
+			);
+			currentVersion = 323807E71B2E287C00D68FCC /* Scribeat.xcdatamodel */;
+			path = Scribeat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 323807D41B2E287C00D68FCC /* Project object */;
+}
